@@ -1,6 +1,8 @@
 # **Employee Tracker**
 ## Description
 It is a command-line application to manage a company's employee database, using Node.js, Inquirer and MySQL.
+The link to my github repo is https://github.com/GonzalezL13/employee_tracker.git
+The link to my walthrough video is https://drive.google.com/file/d/1Bn4fiNiV9eFPesbbPuRpKEuqvzH1CIQV/view
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
