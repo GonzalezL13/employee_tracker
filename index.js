@@ -88,4 +88,25 @@ function viewDepartments() {
         .then(() => mainPrompts());
 }
 
+// View all roles
+function viewRoles() {
+    db.findAllRoles()
+        .then(([rows]) => {
+            let roles = rows;
+            console.log("\n");
+            console.table(roles);
+        })
+        .then(() => mainPrompts());
+}
+
+
+
+
+
+
+// Exit the application
+function quit() {
+    console.log("Goodbye!");
+    process.exit();
+}
 mainPrompts();
